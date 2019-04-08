@@ -7,7 +7,7 @@
                 <div class="card-body">
                     <div class="form-group">
                         <label for="">First Number</label>
-                        <input type="number" name="firstNumber" class="form-control">
+                        <input type="number" name="firstNumber" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label for="">Second Number</label>
@@ -21,7 +21,7 @@
                     </div>
                     <div class="form-group">
                         <label for="">Select Operator</label>
-                        <input type="number" name="secondNumber" class="form-control">
+                        <input type="number" name="secondNumber" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <button type="submit" name="submit" class="btn btn-success btn-sm">Calculate</button>
