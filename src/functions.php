@@ -5,16 +5,28 @@ class functions
     public $operator;
     public $secondNumber;
 
-    public function __construct($firstNumber, $operator, $secondNumber) 
+    public function __construct($firstNumber, $secondNumber) 
     {
         $this->firstNumber = $firstNumber;
-        $this->operator = $operator;
         $this->secondNumber = $secondNumber;
     }
 
-    public function none() 
+    public function add()
     {
-        return "0";
+        return $this->firstNumber+$this->secondNumber;
     }
-    
-    p
+    public function minus()
+    {
+        return $this->firstNumber-$this->secondNumber;
+    }
+    public function multiply()
+    {
+        return $this->firstNumber*$this->secondNumber;
+    }
+    public function devide()
+    {
+        return $this->firstNumber/$this->secondNumber;
+    }
+
+
+}
