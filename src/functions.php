@@ -1,4 +1,5 @@
 <?php
+namespace finalExam;
 class functions 
 {
     public $firstNumber;

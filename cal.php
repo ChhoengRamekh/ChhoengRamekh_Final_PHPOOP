@@ -1,6 +1,7 @@
 <?php
-include 'src/functions.php';
-
+//include 'src/functions.php';
+use finalExam\functions;
+include "public/vendor/autoload.php";
 extract($_POST);
 
 
